@@ -12,7 +12,7 @@ import uk.chrisbibby.guiceyfx.modules.MainModule;
 import java.io.InputStream;
 
 public class App extends Application {
-  public static void main(String[] args) {
+  public static void main(final String[] args) {
     launch();
   }
 

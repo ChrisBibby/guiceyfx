@@ -16,7 +16,7 @@ public class DemoController {
   }
 
   @FXML
-  void onAboutBtnClick(ActionEvent event) {
+  void onAboutBtnClick(final ActionEvent event) {
     final Alert alert = new Alert(Alert.AlertType.INFORMATION);
     alert.setTitle(demoStrings.getTitle());
     alert.setHeaderText(demoStrings.getHeader());
